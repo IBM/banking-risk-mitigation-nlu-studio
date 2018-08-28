@@ -18,5 +18,8 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 <!--- [![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/IBM/banking-risk-mitigation-nlu-studio) -->
 
 
+# Watch the Video
+
+
 
 
