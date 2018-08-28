@@ -76,7 +76,7 @@ In the `Service Credentials` that opens up in the UI, select whichever `Credenti
 ![](doc/source/images/nlu_service_credentials.png)
 
 
-## 2. Run the app locally
+## 4. Run the app locally
 
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
 
