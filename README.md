@@ -65,4 +65,8 @@ In the `Service Credentials` that opens up in the UI, select whichever `Credenti
 
 ![](doc/source/images/copy_credentials.png)
 
-Update the `username` and `password` key values in the cell below `2.1 Add your service credentials from IBM Cloud for the Watson services` section.
+* Navigate to the cloned repo and open the file `app.py`.
+* Go to the section in the code which declares `natural_language_understanding` instance.
+* Update the `username` and `password` key values in the code.
+
+![](doc/source/images/nlu_service_credentials.png)
