@@ -61,9 +61,13 @@ Once the service is open click the `Service Credentials` menu on the left.
 
 ![](doc/source/images/service_credentials.png)
 
+
+
 In the `Service Credentials` that opens up in the UI, select whichever `Credentials` you would like to use in the notebook from the `KEY NAME` column. Click `View credentials` and copy `username` and `password` key values that appear on the UI in JSON format.
 
 ![](doc/source/images/copy_credentials.png)
+
+
 
 * Navigate to the cloned repo and open the file `app.py`.
 * Go to the section in the code which declares `natural_language_understanding` instance.
