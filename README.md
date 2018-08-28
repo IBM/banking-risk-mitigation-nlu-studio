@@ -47,7 +47,7 @@ cd banking-risk-mitigation-nlu-studio
   
 ## 2. Create IBM Cloud service
 
-Create the following IBM Cloud service and name it wdc-NLU-service:
+Create the following IBM Cloud service. Select the appropriate region, organization and space:
 
   * [**Watson Natural Language Understanding**](https://console.bluemix.net/catalog/services/natural-language-understanding)
 
