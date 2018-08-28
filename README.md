@@ -29,7 +29,7 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 
 ## Steps
 1. [Clone the repo](#1-clone-the-repo)
-2. [Create IBM Cloud services](#2-create-ibm-cloud-services)
+2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
 3. [Load Investment Portfolio](#3-load-investment-portfolio)
 4. [Configure Manifest file](#4-configure-manifest-file)
 5. [Configure .env file](#5-configure-env-file)
@@ -44,3 +44,11 @@ cd banking-risk-mitigation-nlu-studio
   ```
 
   Peruse the files in the *get-started-python* directory to familiarize yourself with the contents.
+  
+## 2. Create IBM Cloud service
+
+Create the following IBM Cloud service and name it wdc-NLU-service:
+
+  * [**Watson Natural Language Understanding**](https://console.bluemix.net/catalog/services/natural-language-understanding)
+
+  ![](doc/source/images/bluemix_service_nlu.png)
