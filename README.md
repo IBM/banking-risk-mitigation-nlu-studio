@@ -30,7 +30,7 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 ## Steps
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
-3. [Update the NLU service credentials](#3-update-the-NLU-service-credentials)
+3. [Update the NLU service credentials](#3-update-the-nlu-service-credentials)
 4. [Configure Manifest file](#4-configure-manifest-file)
 5. [Configure .env file](#5-configure-env-file)
 6. [Run Application](#6-run-application)
@@ -74,3 +74,20 @@ In the `Service Credentials` that opens up in the UI, select whichever `Credenti
 * Update the `username` and `password` key values in the code.
 
 ![](doc/source/images/nlu_service_credentials.png)
+
+
+## 2. Run the app locally
+
+Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
+
+You can optionally use a [virtual environment](https://packaging.python.org/installing/#creating-and-using-virtual-environments) to avoid having these dependencies clash with those of other Python projects or your operating system.
+  ```
+pip install -r requirements.txt
+  ```
+
+Run the app.
+  ```
+python app.py
+  ```
+
+View your app at: http://localhost:8000
