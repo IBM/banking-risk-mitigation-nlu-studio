@@ -116,4 +116,8 @@ If you wish to change the name of the IBM Cloud application- Navigate to the `ma
 ibmcloud logs Client_Network_Banking_V1 --recent
 ```
 
+# License
+
+[Apache 2.0](LICENSE)
+
 
