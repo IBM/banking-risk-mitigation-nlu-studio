@@ -30,7 +30,7 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 ## Steps
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
-3. [Load Investment Portfolio](#3-load-investment-portfolio)
+3. [Update the NLU service credentials](#3-update-the-NLU-service-credentials)
 4. [Configure Manifest file](#4-configure-manifest-file)
 5. [Configure .env file](#5-configure-env-file)
 6. [Run Application](#6-run-application)
@@ -52,3 +52,17 @@ Create the following IBM Cloud service. Select the appropriate region, organizat
   * [**Watson Natural Language Understanding**](https://console.bluemix.net/catalog/services/natural-language-understanding)
 
   ![](doc/source/images/NLU_Service_instance.png)
+  
+## 3. Update the NLU service credentials
+
+Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/services) and click on your Natural Language Understanding service.
+
+Once the service is open click the `Service Credentials` menu on the left.
+
+![](doc/source/images/service_credentials.png)
+
+In the `Service Credentials` that opens up in the UI, select whichever `Credentials` you would like to use in the notebook from the `KEY NAME` column. Click `View credentials` and copy `username` and `password` key values that appear on the UI in JSON format.
+
+![](doc/source/images/copy_credentials.png)
+
+Update the `username` and `password` key values in the cell below `2.1 Add your service credentials from IBM Cloud for the Watson services` section.
