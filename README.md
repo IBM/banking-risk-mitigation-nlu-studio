@@ -31,8 +31,8 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
 3. [Update the NLU service credentials](#3-update-the-nlu-service-credentials)
-4. [Run the app locally](#4-run-the-app-locally)
-5. [Run Application on IBM Cloud](#6-run-application-on-ibm-cloud)
+4. [Run the Application locally](#4-run-the-application-locally)
+5. [Run the Application on IBM Cloud](#5-run-the-application-on-ibm-cloud)
 
 ## 1. Clone the repo
 
@@ -75,7 +75,7 @@ In the `Service Credentials` that opens up in the UI, select whichever `Credenti
 ![](doc/source/images/nlu_service_credentials.png)
 
 
-## 4. Run the app locally
+## 4. Run the Application locally
 
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
 
@@ -92,7 +92,7 @@ python app.py
 View your app at: http://localhost:8000
 
 
-## 5. Run Application on IBM Cloud
+## 5. Run the Application on IBM Cloud
 
 You can push the app to IBM Cloud using [IBM Cloud CLI](https://console.bluemix.net/docs/cli). This will use the services and application name in the `manifest.yml` file.  From your root directory login into IBM Cloud using CLI:
 ```
