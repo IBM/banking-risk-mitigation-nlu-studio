@@ -21,5 +21,9 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 # Watch the Video
 
 
-
+## Prerequisite
+* [Python](https://www.python.org/downloads/)
+* [Git](https://git-scm.com/downloads)
+* [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps)
+* [IBM Cloud CLI](https://console.bluemix.net/docs/cli)
 
