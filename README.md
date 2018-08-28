@@ -1,6 +1,7 @@
 # Banking Risk Mitigation using NLU Studio
 
 
+
 ![](doc/source/images/architecture.png)
 
 ## Flow
