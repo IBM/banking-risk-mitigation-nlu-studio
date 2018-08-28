@@ -27,3 +27,20 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 * [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps)
 * [IBM Cloud CLI](https://console.bluemix.net/docs/cli)
 
+## Steps
+1. [Clone the repo](#1-clone-the-repo)
+2. [Create IBM Cloud services](#2-create-ibm-cloud-services)
+3. [Load Investment Portfolio](#3-load-investment-portfolio)
+4. [Configure Manifest file](#4-configure-manifest-file)
+5. [Configure .env file](#5-configure-env-file)
+6. [Run Application](#6-run-application)
+
+## 1. Clone the repo
+
+Now you're ready to start working with the app. Clone the repo and change to the directory where the sample app is located.
+  ```
+git clone https://github.com/IBM/banking-risk-mitigation-nlu-studio
+cd banking-risk-mitigation-nlu-studio
+  ```
+
+  Peruse the files in the *get-started-python* directory to familiarize yourself with the contents.
