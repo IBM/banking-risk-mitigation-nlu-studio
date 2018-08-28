@@ -32,8 +32,7 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
 3. [Update the NLU service credentials](#3-update-the-nlu-service-credentials)
 4. [Run the app locally](#4-run-the-app-locally)
-5. [Configure .env file](#5-configure-env-file)
-6. [Run Application](#6-run-application)
+5. [Run Application on IBM Cloud](#6-run-application-on-ibm-cloud)
 
 ## 1. Clone the repo
 
