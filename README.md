@@ -91,3 +91,30 @@ python app.py
   ```
 
 View your app at: http://localhost:8000
+
+
+## 5. Run Application on IBM Cloud
+
+You can push the app to IBM Cloud using [IBM Cloud CLI](https://console.bluemix.net/docs/cli). This will use the services and application name in the `manifest.yml` file.  From your root directory login into IBM Cloud using CLI:
+```
+ibmcloud login
+```
+And push the app to IBM Cloud:
+```
+ibmcloud push Client_Network_Banking_V1
+```
+
+If you wish to change the name of the IBM Cloud application- Navigate to the `manifest.yml` file and update the `name` field.
+
+![](doc/source/images/manifest_file.png)
+
+
+# Troubleshooting
+
+* To troubleshoot your IBM Cloud application, use the logs. To see the logs, run:
+
+```bash
+ibmcloud logs Client_Network_Banking_V1 --recent
+```
+
+
