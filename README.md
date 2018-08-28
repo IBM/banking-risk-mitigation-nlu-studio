@@ -51,4 +51,4 @@ Create the following IBM Cloud service and name it wdc-NLU-service:
 
   * [**Watson Natural Language Understanding**](https://console.bluemix.net/catalog/services/natural-language-understanding)
 
-  ![](doc/source/images/bluemix_service_nlu.png)
+  ![](doc/source/images/NLU_Service_instance.png)
