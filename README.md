@@ -1,6 +1,9 @@
 ## Work in Progress
 # Banking Risk Mitigation using NLU Studio
 
+
+![](doc/source/images/architecture.png)
+
 ## Flow
 
 1. The user interacts with the app UI to request relevant information corresponding to an event or a client
@@ -8,7 +11,6 @@
 3. The flask apis scrape real-time news from popular online news portals. 
 4. The scraped data is sent to NLU Studio to extract important entities and is pushed back to the UI through another flask api.
 
-![](doc/source/images/architecture.png)
 
 ## Included Components
 
