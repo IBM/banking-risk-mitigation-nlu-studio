@@ -1,6 +1,15 @@
 ## Work in Progress
 # Banking Risk Mitigation using NLU Studio
 
+## Flow
+
+1. The user interacts with the app UI to request relevant information corresponding to an event or a client
+2. The web app UI interacts with the Python-Flask server to receive the required information from the appropriate api.
+3. The flask apis scrape real-time news from popular online news portals. 
+4. The scraped data is sent to NLU Studio to extract important entities and is pushed back to the UI through another flask api.
+
+![](doc/source/images/architecture.png)
+
 ## Included Components
 
 * [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding): An IBM Cloud service that can analyze text to extract meta-data from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles, using natural language understanding.
