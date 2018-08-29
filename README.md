@@ -8,6 +8,16 @@ Ask questions and gather information about the company’s products and services
 
 On subsequent calls, investigate competition, market share, and the probable impact of economic conditions on the business. And identify the company’s business strategy and what the company must do to succeed.
 
+There is risk to every line item on the balance sheet and income statement and you must learn how to evaluate those risks, which fall into the broad categories of:
+
+Industry
+Business
+Management  
+The integration of the analysis of risks associated with the industry, business, and management of a company is a critical piece in the overall credit underwriting process. From your institution’s perspective, senior credit policy management wants to know:    
+
+Is there enough capital available on the institution’s balance sheet to support the risk being taken?  
+Is the institution being adequately compensated for the risk?
+Are there adequate controls in place at the institution to assure the proper tracking of the risk and minimize the element of surprise?  
 
 ![](doc/source/images/architecture.png)
 
