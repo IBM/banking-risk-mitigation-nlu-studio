@@ -4,6 +4,10 @@ Knowing your Customer is an essential best practice because it is the foundation
 
 A poorly planned and executed initial call could limit your opportunity for future business. 
 
+Ask questions and gather information about the company’s products and services, customers, suppliers, facilities, management, ownership, and history. This is when you can develop your initial observations about management’s behavior and start to evaluate their qualifications and abilities to carry out the company’s business strategy.
+
+On subsequent calls, investigate competition, market share, and the probable impact of economic conditions on the business. And identify the company’s business strategy and what the company must do to succeed.
+
 
 ![](doc/source/images/architecture.png)
 
