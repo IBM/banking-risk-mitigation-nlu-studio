@@ -28,7 +28,9 @@ Finally, a flask application connects the algorithm to a UI which can be used by
 1. The user interacts with the app UI to request relevant information corresponding to an event or a client
 2. The web app UI interacts with the Python-Flask server to receive the required information from the appropriate api.
 3. The flask apis scrape real-time news from popular online news portals. 
-4. The scraped data is sent to NLU Studio to extract important entities and is pushed back to the UI through another flask api.
+4. The scraped data is sent to NLU Studio to extract important entities. 
+5. A configuration json file is sent into the flask app, to further prune on the results obtained on NLU.
+6. Finally, all the collected information is pushed back into the interactive UI.
 
 
 ## Included Components
