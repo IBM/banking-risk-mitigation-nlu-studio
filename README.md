@@ -1,14 +1,14 @@
 # Banking Risk Mitigation using NLU Studio
 
-Credit risk is a big deal these days. While being rightly enraged about wilful defaulters who seem to be getting away with it, and asking for better lending practices for everyone, we fail to grasp the inherent complexity in the credit business. Knowing your Customer is an essential best practice because it is the foundation for all succeeding steps in the credit risk management process. To be successful, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical to positioning yourself as a valued financial consultant and provider of financial products and services. A poorly planned and executed initial call could limit your opportunity for future business. 
+In the recent years, credit risk is a big deal. While being rightly enraged about wilful defaulters who seem to be getting away with it, and asking for better lending practices for everyone, we fail to grasp the inherent complexity in the credit business. Knowing your Customer is an essential best practice because it is the foundation for all succeeding steps in the credit risk management process. To be successful, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical for an organization investing in a numerous number of client. A poorly planned and executed initial call could limit your opportunity for future business. 
 
 But how can we gather information to take the right decisions?
 
-Ask questions about the company’s products and services, customers, suppliers, facilities, management, ownership, and history. This is when you can develop your initial observations about management’s behavior and start to evaluate their qualifications and abilities to carry out the company’s business strategy. On subsequent calls, investigate competition, market share, and the probable impact of economic conditions on the business. And identify the company’s business strategy and what the company must do to succeed.
+We can ask questions about the company’s products and services, customers, suppliers, facilities, management, ownership, and history. This is when you can develop your initial observations about management’s behavior and start to evaluate their qualifications and abilities to carry out the company’s business strategy. On subsequent calls, investigate competition, market share, and the probable impact of economic conditions on the business. And identify the company’s business strategy and what the company must do to succeed.
 
 What if we can build a tool that can help you gather all the required information about your clients. To help you take an informed decision to whether or not to invest in a client?
 
-This pattern provides real-time information regarding a client, known as a client-network all collated in a single place. This information is in compliance to the most important events, suggested by the Reserve Bank of India, that would lead to a risk. The following are the events: 
+This pattern provides real-time information regarding a client, known as a client-network, all collated in a single place. This information is in compliance to the most important events impacting any organization. The following are the event triggers in the built application: 
 * Management Change
 * Management Default
 * Credit Rating
@@ -18,6 +18,8 @@ This pattern provides real-time information regarding a client, known as a clien
 This code pattern takes real-time information from popular news sites, extracts the clients affected by it with the help of [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding). This is acheived with the help of the following code patterns:
 * [Augmented Classification of text with Watson Natural Language Understanding and IBM Data Science experience](https://developer.ibm.com/code/patterns/extend-watson-text-classification)
 * [Correlation of text content across documents using Watson Natural Language Understanding, Python NLTK and IBM Data Science experience](https://developer.ibm.com/code/patterns/watson-document-correlation/)
+
+Finally, a flask application connects the algorithm to a UI which can be used by a user to prune down to the required information.
 
 ![](doc/source/images/architecture.png)
 
@@ -63,6 +65,7 @@ Insert Git Link later
 3. [Update the NLU service credentials](#3-update-the-nlu-service-credentials)
 4. [Run the Application locally](#4-run-the-application-locally)
 5. [Run the Application on IBM Cloud](#5-run-the-application-on-ibm-cloud)
+6. [Analyze the Results](#6-analyze-the-results)
 
 ## 1. Clone the repo
 
