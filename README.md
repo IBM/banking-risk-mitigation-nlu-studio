@@ -1,6 +1,6 @@
 # Banking Risk Mitigation using NLU Studio
 
-In the recent years, credit risk is a big deal. While being rightly enraged about wilful defaulters who seem to be getting away with it, and asking for better lending practices for everyone, we fail to grasp the inherent complexity in the credit business. Knowing your Customer is an essential best practice because it is the foundation for all succeeding steps in the credit risk management process. To be successful, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical for an organization investing in a numerous number of client. A poorly planned and executed initial call could limit your opportunity for future business. 
+In the recent years, credit risk has become a big deal. While being rightly enraged about wilful defaulters who seem to be getting away with it, and asking for better lending practices for everyone, we fail to grasp the inherent complexity in the credit business. Knowing your Customer is an essential best practice because it is the foundation for all succeeding steps in the credit risk management process. To be successful, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical for an organization investing in a numerous number of client. A poorly planned and executed initial call could limit your opportunity for future business. 
 
 But how can we gather information to take the right decisions?
 
