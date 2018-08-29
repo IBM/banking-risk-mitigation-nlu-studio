@@ -1,23 +1,14 @@
 # Banking Risk Mitigation using NLU Studio
 
-Knowing your Customer is an essential best practice because it is the foundation for all succeeding steps in the credit risk management process. To be successful, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical to positioning yourself as a valued financial consultant and provider of financial products and services. Establishing a good relationship can bring a long stream of equity to your institution.
+Credit risk is a big deal these days. While being rightly enraged about wilful defaulters who seem to be getting away with it, and asking for better lending practices for everyone, we fail to grasp the inherent complexity in the credit business. Knowing your Customer is an essential best practice because it is the foundation for all succeeding steps in the credit risk management process. To be successful, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical to positioning yourself as a valued financial consultant and provider of financial products and services. A poorly planned and executed initial call could limit your opportunity for future business. 
 
-A poorly planned and executed initial call could limit your opportunity for future business. 
+But how can we gather information to take the right decisions?
 
-Ask questions and gather information about the company’s products and services, customers, suppliers, facilities, management, ownership, and history. This is when you can develop your initial observations about management’s behavior and start to evaluate their qualifications and abilities to carry out the company’s business strategy.
+Ask questions about the company’s products and services, customers, suppliers, facilities, management, ownership, and history. This is when you can develop your initial observations about management’s behavior and start to evaluate their qualifications and abilities to carry out the company’s business strategy. On subsequent calls, investigate competition, market share, and the probable impact of economic conditions on the business. And identify the company’s business strategy and what the company must do to succeed.
 
-On subsequent calls, investigate competition, market share, and the probable impact of economic conditions on the business. And identify the company’s business strategy and what the company must do to succeed.
+What if we can build a tool that can help you gather all the required information about your clients. To help you take an informed decision?
 
-There is risk to every line item on the balance sheet and income statement and you must learn how to evaluate those risks, which fall into the broad categories of:
-
-Industry
-Business
-Management  
-The integration of the analysis of risks associated with the industry, business, and management of a company is a critical piece in the overall credit underwriting process. From your institution’s perspective, senior credit policy management wants to know:    
-
-Is there enough capital available on the institution’s balance sheet to support the risk being taken?  
-Is the institution being adequately compensated for the risk?
-Are there adequate controls in place at the institution to assure the proper tracking of the risk and minimize the element of surprise?  
+This pattern 
 
 ![](doc/source/images/architecture.png)
 
