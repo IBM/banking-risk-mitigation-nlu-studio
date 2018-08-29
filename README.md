@@ -1,5 +1,8 @@
 # Banking Risk Mitigation using NLU Studio
 
+Knowing your Customer is an essential best practice because it is the foundation for all succeeding steps in the credit risk management process. To be successful, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical to positioning yourself as a valued financial consultant and provider of financial products and services. Establishing a good relationship can bring a long stream of equity to your institution.
+
+A poorly planned and executed initial call could limit your opportunity for future business. 
 
 
 ![](doc/source/images/architecture.png)
