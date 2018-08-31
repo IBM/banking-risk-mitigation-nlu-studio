@@ -45,13 +45,6 @@ Finally, a flask application connects the algorithm to a UI which can be used by
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 * [Artificial Intelligence](https://www.ibm.com/services/artificial-intelligence): Artificial intelligence is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.
 
-# Deploy to IBM Cloud
-
-Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps) and directly deploy the application using the button below.
-
-[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/IBM/banking-risk-mitigation-nlu-studio)
-
-
 # Watch the Video
 
 
@@ -61,13 +54,25 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 * [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps)
 * [IBM Cloud CLI](https://console.bluemix.net/docs/cli)
 
+There are three ways to run the application, depending on your need you may choose to run in any one of the following ways:
+* [Deploy to IBM Cloud](#deploy-to-ibm-cloud): This will directly clone this git repo as is and run on your IBM Cloud Foundry Organisation.
+* [Run Application on IBM Cloud](#run-application-on-ibm-cloud): This will let you make the desired changed in the code and then push the application onto your IBM Cloud Foundry Organisation.
+* [Run Application locally](#run-application-locally): This will show you how to run the application localhost, using the provided Flask Server
+
+# Deploy to IBM Cloud
+
+Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps) and directly deploy the application using the button below.
+
+[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/IBM/banking-risk-mitigation-nlu-studio)
+
+# Run Application on IBM Cloud
+
+
 ## Steps
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
 3. [Update the NLU service credentials](#3-update-the-nlu-service-credentials)
-4. [Run the Application locally](#4-run-the-application-locally)
-5. [Run the Application on IBM Cloud](#5-run-the-application-on-ibm-cloud)
-6. [Analyze the Results](#6-analyze-the-results)
+4. [Run the Application on IBM Cloud](#4-run-the-application-on-ibm-cloud)
 
 ## 1. Clone the repo
 
@@ -76,8 +81,6 @@ Now you're ready to start working with the app. Clone the repo and change to the
 git clone https://github.com/IBM/banking-risk-mitigation-nlu-studio
 cd banking-risk-mitigation-nlu-studio
   ```
-
-  Peruse the files in the *get-started-python* directory to familiarize yourself with the contents.
   
 ## 2. Create IBM Cloud service
 
@@ -110,7 +113,24 @@ In the `Service Credentials` that opens up in the UI, select whichever `Credenti
 ![](doc/source/images/nlu_service_credentials.png)
 
 
-## 4. Run the Application locally
+## 4. Run the Application on IBM Cloud
+
+You can push the app to IBM Cloud using [IBM Cloud CLI](https://console.bluemix.net/docs/cli). This will use the services and application name in the `manifest.yml` file.  From your root directory login into IBM Cloud using CLI:
+```
+ibmcloud login
+```
+And push the app to IBM Cloud:
+```
+ibmcloud push Client_Network_Banking_V1
+```
+
+If you wish to change the name of the IBM Cloud application- Navigate to the `manifest.yml` file and update the `name` field.
+
+![](doc/source/images/manifest_file.png)
+
+# Run Application locally
+
+Follow Steps 1-3 from the previous section.
 
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
 
@@ -125,22 +145,6 @@ python app.py
   ```
 
 View your app at: http://localhost:8000
-
-
-## 5. Run the Application on IBM Cloud
-
-You can push the app to IBM Cloud using [IBM Cloud CLI](https://console.bluemix.net/docs/cli). This will use the services and application name in the `manifest.yml` file.  From your root directory login into IBM Cloud using CLI:
-```
-ibmcloud login
-```
-And push the app to IBM Cloud:
-```
-ibmcloud push Client_Network_Banking_V1
-```
-
-If you wish to change the name of the IBM Cloud application- Navigate to the `manifest.yml` file and update the `name` field.
-
-![](doc/source/images/manifest_file.png)
 
 
 # Troubleshooting
