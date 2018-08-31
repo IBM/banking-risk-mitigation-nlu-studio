@@ -1,6 +1,6 @@
 # Banking Risk Mitigation using NLU Studio
 
-In the recent years, credit risk has become a big deal. While being rightly enraged about wilful defaulters who seem to be getting away with it, and asking for better lending practices for everyone, we fail to grasp the inherent complexity in the credit business. Knowing your Client is an essential best practice because it is the foundation for all succeeding steps in the credit risk management process. To be successful, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical for an organization investing in a numerous number of client. A poorly planned and executed initial call could limit your opportunity for future business. 
+Knowing your Client is an essential best practice because it acts as a basis to decide whether or not to invest in a particular client. To be successful in taking the right decision, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical for an organization investing in a numerous number of client. A poorly planned and executed initial call could limit your opportunity for future business. 
 
 But how can we gather information to take the right decisions?
 
@@ -9,6 +9,7 @@ We can ask questions about the company’s products and services, customers, sup
 What if we can build a tool that can help you gather all the required information about your clients. To help you take an informed decision to whether or not to invest in a client?
 
 This pattern provides real-time information regarding a client, known as a client-network, all collated in a single place. This information is in compliance to the most important events impacting any organization. The following are the event triggers in the built application: 
+
 * Management Change
 * Management Default
 * Credit Rating
@@ -42,6 +43,7 @@ Finally, a flask application connects the algorithm to a UI which can be used by
 * [Natural Language Processing](https://www.ibm.com/watson/services/natural-language-understanding): Natural Language Processing is a field that covers computer understanding and manipulation of human language, and it’s ripe with possibilities for newsgathering.
 * [Cloud](https://www.ibm.com/developerworks/learn/cloud/): Accessing computer and information technology resources through the Internet.
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+* [Artificial Intelligence](https://www.ibm.com/services/artificial-intelligence): Artificial intelligence is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.
 
 # Deploy to IBM Cloud
 
