@@ -1,3 +1,4 @@
+## WORK IN PROGRESS
 # Banking Risk Mitigation using NLU Studio
 
 Knowing your Client is an essential best practice because it acts as a basis to decide whether or not to invest in a particular client. To be successful in taking the right decision, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical for an organization investing in a numerous number of client. A poorly planned and executed initial call could limit your opportunity for future business. 
