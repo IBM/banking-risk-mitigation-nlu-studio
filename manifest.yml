@@ -1,10 +1,6 @@
- declared-services:
-  natural-language-understanding-v1:
-    label: natural-language-understanding
-    plan: lite
   applications:
   - name: Client_Network_Banking_V1
     random-route: true
-    memory: 64M
+    memory: 128M
     services:
     - natural-language-understanding-v1
