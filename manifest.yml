@@ -1,0 +1,10 @@
+ declared-services:
+  Client_Network_Banking_V1:
+    label: natural-language-understanding
+    plan: free
+  applications:
+  - name: Client_Network_Banking_V1
+    random-route: true
+    memory: 128M
+    services:
+     - Client_Network_Banking_V1
