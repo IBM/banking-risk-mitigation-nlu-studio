@@ -9,3 +9,4 @@
     memory: 64M
     services:
     - natural-language-understanding-v1
+---
