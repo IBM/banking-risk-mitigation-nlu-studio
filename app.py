@@ -27,15 +27,15 @@ from nltk import word_tokenize,sent_tokenize,ne_chunk
 
 app = Flask(__name__)
 
-'''if 'VCAP_SERVICES' in os.environ:
+if 'VCAP_SERVICES' in os.environ:
     services=json.loads(os.getenv('VCAP_SERVICES'))
     username=services['natural-language-understanding'][0]['credentials']['username']
     password=services['natural-language-understanding'][0]['credentials']['password']
-'''
+    
 natural_language_understanding = NaturalLanguageUnderstandingV1(
     version='2018-08-14',
-    username='',
-    password='')
+    username=username,
+    password=password)
 
 @app.route("/")
 def indexpage():
