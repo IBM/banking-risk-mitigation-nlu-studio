@@ -76,6 +76,7 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
 3. [Update the NLU service credentials](#3-update-the-nlu-service-credentials)
 4. [Run the Application on IBM Cloud](#4-run-the-application-on-ibm-cloud)
+5. [Troubleshooting](#5-troubleshooting)
 
 ## 1. Clone the repo
 
@@ -131,7 +132,7 @@ If you wish to change the name of the IBM Cloud application- Navigate to the `ma
 
 ![](doc/source/images/manifest_file.png)
 
-## Troubleshooting
+## 5. Troubleshooting
 
 * To troubleshoot your IBM Cloud application, use the logs. To see the logs, run:
 
