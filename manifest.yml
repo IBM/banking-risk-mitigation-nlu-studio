@@ -1,7 +1,7 @@
  declared-services:
   Bankingriskmitigation:
     label: natural-language-understanding
-    plan: lite
+    plan: Lite
  applications:
   - name: Client_Network_Banking_V3
     random-route: true
