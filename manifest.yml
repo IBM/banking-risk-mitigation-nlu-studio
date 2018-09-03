@@ -1,5 +1,5 @@
-declared-services:
-  natural-language-understanding-v1:
+ declared-services:
+  Bankingriskmitigation:
     label: natural-language-understanding
     plan: Free
   applications:
@@ -7,4 +7,4 @@ declared-services:
     random-route: true
     memory: 128M
     services:
-    - natural-language-understanding-v1
+    - Bankingriskmitigation
