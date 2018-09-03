@@ -3,7 +3,7 @@
     label: natural-language-understanding
     plan: lite
  applications:
-  - name: Client_Network_Banking_V2
+  - name: Client_Network_Banking_V3
     random-route: true
     memory: 128M
     services:
