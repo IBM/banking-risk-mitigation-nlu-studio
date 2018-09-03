@@ -1,3 +1,7 @@
+declared-services:
+  natural-language-understanding-v1:
+    label: natural-language-understanding
+    plan: Free
   applications:
   - name: Client_Network_Banking_V1
     random-route: true
