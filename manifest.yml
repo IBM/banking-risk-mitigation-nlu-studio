@@ -1,8 +1,4 @@
- declared-services:
-  Bankingriskmitigation:
-    label: natural-language-understanding
-    plan: Free
-  applications:
+ applications:
   - name: Client_Network_Banking_V1
     random-route: true
     memory: 128M
