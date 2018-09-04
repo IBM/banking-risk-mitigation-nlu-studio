@@ -131,6 +131,7 @@ In the `Service Credentials` that opens up in the UI, select whichever `Credenti
  
 If you wish to change the name of your NLU service instance, be sure to update the service name in `manifest.yml`.
   
+## Run the Application
 
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
 
