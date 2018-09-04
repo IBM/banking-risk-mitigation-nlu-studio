@@ -59,7 +59,6 @@ def indexpage():
     #msg=ast.literal_eval(msg)
     #print(msg['children'])
     client_network_list= extract_client_info(rel)
-    print(client_network_list)
     return render_template("client_network_banking.html", news_details = news_details, client_details= client_network_list)
 
 
@@ -418,12 +417,12 @@ def extract_client_info(msg):
     client_network_list=list()
     for m in msg['children']:
         for k,v in m.items():
-            print(m['name'])
-            print("-------------------------------------------")
+            '''print(m['name'])
+            print("-------------------------------------------")'''
             for x in m['children']:
                 client_network=dict()
                 client_network['Event_Type']=m['name']
-                print(x['newslink'])
+                #print(x['newslink'])
                 if  "<a" in x['newslink']:
                     if (client_network['Event_Type'] != 'Share Price Deviation'):
                         soup=BeautifulSoup(x['newslink'], 'lxml')
