@@ -74,9 +74,8 @@ Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%
 ## Steps
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
-3. [Update the NLU service credentials](#3-update-the-nlu-service-credentials)
-4. [Run the Application on IBM Cloud](#4-run-the-application-on-ibm-cloud)
-5. [Troubleshooting](#5-troubleshooting)
+3. [Run the Application on IBM Cloud](#3-run-the-application-on-ibm-cloud)
+4. [Troubleshooting](#4-troubleshooting)
 
 ## 1. Clone the repo
 
@@ -94,30 +93,10 @@ Create the following IBM Cloud service. Name the service `Bankingriskmitigation`
 
   ![](doc/source/images/NLU_Service_instance.png)
   
-## 3. Update the NLU service credentials
+  If you wish to change the name of your NLU service instance, be sure to update the service name in `manifest.yml`.
+  
 
-Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/services) and click on your Natural Language Understanding service.
-
-Once the service is open click the `Service Credentials` menu on the left.
-
-![](doc/source/images/service_credentials.png)
-
-
-
-In the `Service Credentials` that opens up in the UI, select whichever `Credentials` you would like to use in the notebook from the `KEY NAME` column. Click `View credentials` and copy `username` and `password` key values that appear on the UI in JSON format.
-
-![](doc/source/images/copy_credentials.png)
-
-
-
-* Navigate to the cloned repo and open the file `app.py`.
-* Go to the section in the code which declares `natural_language_understanding` instance.
-* Update the `username` and `password` key values in the code.
-
-![](doc/source/images/nlu_service_credentials.png)
-
-
-## 4. Run the Application on IBM Cloud
+## 3. Run the Application on IBM Cloud
 
 You can push the app to IBM Cloud using [IBM Cloud CLI](https://console.bluemix.net/docs/cli). This will use the services and application name in the `manifest.yml` file.  From your root directory login into IBM Cloud using CLI:
 ```
@@ -132,7 +111,7 @@ If you wish to change the name of the IBM Cloud application- Navigate to the `ma
 
 ![](doc/source/images/manifest_file.png)
 
-## 5. Troubleshooting
+## 4. Troubleshooting
 
 * To troubleshoot your IBM Cloud application, use the logs. To see the logs, run:
 
