@@ -125,7 +125,7 @@ ibmcloud login
 ```
 And push the app to IBM Cloud:
 ```
-ibmcloud push Client_Network_Banking_V1
+ibmcloud cf push Client_Network_Banking_V1
 ```
 
 If you wish to change the name of the IBM Cloud application- Navigate to the `manifest.yml` file and update the `name` field.
