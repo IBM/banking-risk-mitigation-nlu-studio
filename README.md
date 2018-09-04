@@ -56,7 +56,7 @@ Insert Video
 * [IBM Cloud CLI](https://console.bluemix.net/docs/cli)
 
 
-There are two ways to run this application, depending on your need you may choose to run in any one of the following ways:
+There are two ways to run this application, depending on your requirement, you may choose to run in any one of the following ways:
 * [Run Application on IBM Cloud](#run-application-on-ibm-cloud): This will let you make the desired changed in the code and then push the application onto your IBM Cloud Foundry Organisation.
 * [Run Application locally](#run-application-locally): This will show you how to run the application localhost, using the provided Flask Server
 
