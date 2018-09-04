@@ -114,7 +114,7 @@ If you wish to change the name of the IBM Cloud application- Navigate to the `ma
 * To troubleshoot your IBM Cloud application, use the logs. To see the logs, run:
 
 ```bash
-ibmcloud logs Client_Network_Banking_V1 --recent
+ibmcloud cf logs Client_Network_Banking_V1 --recent
 ```
 
 # Run Application locally
