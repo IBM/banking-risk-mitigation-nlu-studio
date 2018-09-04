@@ -1,15 +1,15 @@
 ## WORK IN PROGRESS
 # Banking Risk Mitigation using NLU Studio
 
-Knowing your Client is an essential best practice because it acts as a basis to decide whether or not to invest in a particular client. To be successful in taking the right decision, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical for an organization investing in a numerous number of client. A poorly planned and executed initial call could limit your opportunity for future business. 
+Knowing your Client is an essential best practice because it acts as a basis to decide whether or not to invest in a particular client. For a customer relationship manager to be successful in taking the right decision, you must operate on pertinent, accurate, and timely information. The information you gather and the relationships you establish are critical for an organization investing in a numerous number of client. A poorly planned and executed initial call could limit your opportunity for future business. 
 
-But how can we gather information to take the right decisions?
+But how can we gather information to make the right decisions?
 
 We can ask questions about the company’s products and services, customers, suppliers, facilities, management, ownership, and history. This is when you can develop your initial observations about management’s behavior and start to evaluate their qualifications and abilities to carry out the company’s business strategy. On subsequent calls, investigate competition, market share, and the probable impact of economic conditions on the business. And identify the company’s business strategy and what the company must do to succeed.
 
 What if we can build a tool that can help you gather all the required information about your clients. To help you take an informed decision to whether or not to invest in a client?
 
-This pattern provides real-time information regarding a client, known as a client-network, all collated in a single place. This information is in compliance to the most important events impacting any organization. The following are the event triggers in the built application: 
+This pattern provides real-time information regarding a client, known as a client-network, all collated in a single place. This information is in compliance with the most important events impacting any organization. The following are the event triggers in the built application: 
 
 * Management Change
 * Management Default
@@ -55,6 +55,7 @@ Insert Video
 * [Git](https://git-scm.com/downloads)
 * [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps)
 * [IBM Cloud CLI](https://console.bluemix.net/docs/cli)
+
 
 There are two ways to run this application, depending on your need you may choose to run in any one of the following ways:
 * [Run Application on IBM Cloud](#run-application-on-ibm-cloud): This will let you make the desired changed in the code and then push the application onto your IBM Cloud Foundry Organisation.
