@@ -109,8 +109,6 @@ ibmcloud cf push Client_Network_Banking_V1
 
 If you wish to change the name of the IBM Cloud application- Navigate to the `manifest.yml` file and update the `name` field.
 
-![](doc/source/images/manifest_file.png)
-
 ## 4. Troubleshooting
 
 * To troubleshoot your IBM Cloud application, use the logs. To see the logs, run:
