@@ -56,17 +56,9 @@ Insert Video
 * [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps)
 * [IBM Cloud CLI](https://console.bluemix.net/docs/cli)
 
-There are three ways to run the application, depending on your need you may choose to run in any one of the following ways:
-* [Deploy to IBM Cloud](#deploy-to-ibm-cloud): This will directly clone this git repo as is and run on your IBM Cloud Foundry Organisation.
+There are two ways to run this application, depending on your need you may choose to run in any one of the following ways:
 * [Run Application on IBM Cloud](#run-application-on-ibm-cloud): This will let you make the desired changed in the code and then push the application onto your IBM Cloud Foundry Organisation.
 * [Run Application locally](#run-application-locally): This will show you how to run the application localhost, using the provided Flask Server
-
-# Deploy to IBM Cloud
-
-Create an [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps) and directly deploy the application using the button below.
-
-[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/IBM/banking-risk-mitigation-nlu-studio)
-
 
 # Run Application on IBM Cloud
 
