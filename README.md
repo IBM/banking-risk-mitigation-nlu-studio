@@ -114,15 +114,22 @@ ibmcloud cf logs Client_Network_Banking_V1 --recent
 Follow Steps 1 and 2 from the previous section.
 
 ## Update the NLU service credentials
- Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/services) and click on your Natural Language Understanding service.
+
+Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard] (https://console.bluemix.net/dashboard/services) and click on your Natural Language Understanding service.
  Once the service is open click the `Service Credentials` menu on the left.
+ 
  ![](doc/source/images/service_credentials.png)
- In the `Service Credentials` that opens up in the UI, select whichever `Credentials` you would like to use in the notebook from the `KEY NAME` column. Click `View credentials` and copy `username` and `password` key values that appear on the UI in JSON format.
+ 
+In the `Service Credentials` that opens up in the UI, select whichever `Credentials` you would like to use in the notebook from the `KEY NAME` column. Click `View credentials` and copy `username` and `password` key values that appear on the UI in JSON format.
+
  ![](doc/source/images/copy_credentials.png)
+ 
  * Navigate to the cloned repo and open the file `app.py`.
  * Update the `username` and `password` key values in the code.
+ 
  ![](doc/source/images/nlu_service_credentials.png)
-   If you wish to change the name of your NLU service instance, be sure to update the service name in `manifest.yml`.
+ 
+If you wish to change the name of your NLU service instance, be sure to update the service name in `manifest.yml`.
   
 
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
