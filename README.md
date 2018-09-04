@@ -17,9 +17,8 @@ This pattern provides real-time information regarding a client, known as a clien
 * Strike
 * Share Price Deviation
 
-This code pattern takes real-time information from popular news sites, extracts the clients affected by it with the help of [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding). This is achieved with the help of the following code patterns:
+This code pattern takes real-time information from popular news sites, extracts the clients affected by it with the help of [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding). This is achieved with the help of the following code pattern:
 * [Augmented Classification of text with Watson Natural Language Understanding and IBM Data Science experience](https://developer.ibm.com/code/patterns/extend-watson-text-classification)
-* [Correlation of text content across documents using Watson Natural Language Understanding, Python NLTK and IBM Data Science experience](https://developer.ibm.com/code/patterns/watson-document-correlation/)
 
 Finally, a flask application connects the algorithm to a UI which can be used by a user to prune down to the required information.
 
