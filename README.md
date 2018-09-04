@@ -116,7 +116,7 @@ Follow Steps 1 and 2 from the previous section.
 
 ## Update the NLU service credentials
 
-Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard] (https://console.bluemix.net/dashboard/services) and click on your Natural Language Understanding service.
+Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/services) and click on your Natural Language Understanding service.
  Once the service is open click the `Service Credentials` menu on the left.
  
  ![](doc/source/images/service_credentials.png)
