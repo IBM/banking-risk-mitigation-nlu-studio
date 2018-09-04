@@ -119,7 +119,7 @@ ibmcloud cf logs Client_Network_Banking_V1 --recent
 
 # Run Application locally
 
-Follow Steps 1-3 from the previous section.
+Follow Steps 1 and 2 from the previous section.
 
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
 
