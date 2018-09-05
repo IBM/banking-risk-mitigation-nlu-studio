@@ -24,7 +24,7 @@ Finally, a flask application connects the algorithm to a UI which can be used by
 
 ![](doc/source/images/architecture.png)
 
-## Flow
+# Flow
 
 1. The user interacts with the app UI to request relevant information corresponding to an event or a client.
 2. The web app UI interacts with the Python-Flask server to receive the required information from the appropriate api.
@@ -34,23 +34,23 @@ Finally, a flask application connects the algorithm to a UI which can be used by
 6. Finally, all the collected information is pushed back into the interactive UI.
 
 
-## Included Components
+# Included Components
 
 * [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding): An IBM Cloud service that can analyze text to extract meta-data from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles, using natural language understanding.
 * [Python Runtime](https://console.bluemix.net/docs/runtimes/python/index.html#python_runtime): IBM Cloud is powers a python runtime by the python_buildpack. The python_buildpack provides a complete runtime environment for both Python 2 and Python 3 apps.
 
-## Featured Technologies
+# Featured Technologies
 
 * [Natural Language Processing](https://www.ibm.com/watson/services/natural-language-understanding): Natural Language Processing is a field that covers computer understanding and manipulation of human language, and it’s ripe with possibilities for newsgathering.
 * [Cloud](https://www.ibm.com/developerworks/learn/cloud/): Accessing computer and information technology resources through the Internet.
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 * [Artificial Intelligence](https://www.ibm.com/services/artificial-intelligence): Artificial intelligence is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.
 
-## Watch the Video
+# Watch the Video
 
 Insert Video
 
-## Prerequisite
+# Prerequisite
 If the below are not already installed on your system, please follow the links and install according to your system specifications-
 
 * [Python](https://www.python.org/downloads/): The application is built on Python 3.6, to run the application python 3.x version is preferred.
@@ -64,7 +64,7 @@ There are two ways to run this application, depending on your requirement, you m
 * [Run Application locally](#4-setup-the-application-on-your-localhost): This will show you how to run the application locally, on your laptop/desktop, using the provided Flask Server.
 
 
-## Steps
+# Steps
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
 3. [Setup the Application on IBM Cloud](#3-setup-the-application-on-ibm-cloud)
