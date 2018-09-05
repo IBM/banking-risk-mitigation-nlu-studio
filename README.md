@@ -96,7 +96,9 @@ You can push the app to IBM Cloud using [IBM Cloud CLI](https://console.bluemix.
 ```
 ibmcloud login
 ```
-And push the app to IBM Cloud:
+`Ensure you are in the same Region, Organization and Space as the Watson Natural Language Understanding service created above.`
+
+Push the app to IBM Cloud:
 ```
 ibmcloud cf push Client_Network_Banking_V1
 ```
