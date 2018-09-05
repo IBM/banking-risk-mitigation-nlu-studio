@@ -117,7 +117,7 @@ Ensure [Step 1](#1-clone-the-repo) and [Step 2](#2-create-ibm-cloud-service) are
 
 Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/services) and click on your Natural Language Understanding service named `Bankingriskmitigation`. 
 
-
+![](doc/source/images/dashboard.png)
 
 Once it opens up in the UI, view the `credentials` menu. Copy `username` and `password` key values that appear on the UI
 
