@@ -64,7 +64,7 @@ There are two ways to run this application, depending on your requirement, you m
 * [Run Application locally](#4-setup-the-application-on-your-localhost): This will show you how to run the application locally, on your laptop/desktop, using the provided Flask Server.
 
 
-# Steps
+## Steps
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
 3. [Setup the Application on IBM Cloud](#3-setup-the-application-on-ibm-cloud)
