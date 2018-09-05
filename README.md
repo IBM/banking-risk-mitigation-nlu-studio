@@ -51,10 +51,12 @@ Finally, a flask application connects the algorithm to a UI which can be used by
 Insert Video
 
 ## Prerequisite
-* [Python](https://www.python.org/downloads/)
-* [Git](https://git-scm.com/downloads)
-* [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps)
-* [IBM Cloud CLI](https://console.bluemix.net/docs/cli)
+If the below are not already installed on your system, please follow the links and install according to your system specifications-
+
+* [Python](https://www.python.org/downloads/): The application is built on Python 3.6, to run the application python 3.x version is preferred.
+* [Git](https://git-scm.com/downloads): To clone the repo, alternatively you could use the `Clone or Download` button.
+* [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps): To access IBM Cloud and Watson Services.
+* [IBM Cloud CLI](https://console.bluemix.net/docs/cli): To push the python application on you IBM Cloud Organization.
 
 
 There are two ways to run this application, depending on your requirement, you may choose to run in any one of the following ways:
