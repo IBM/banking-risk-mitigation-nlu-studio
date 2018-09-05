@@ -37,7 +37,7 @@ Finally, a flask application connects the algorithm to a UI which can be used by
 ## Included Components
 
 * [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding): An IBM Cloud service that can analyze text to extract meta-data from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles, using natural language understanding.
-* [Python Runtime](https://console.bluemix.net/docs/runtimes/python/index.html#python_runtime): IBM Cloud provides a python starter application, which is a simple python app that provides a template that you can use for your app. 
+* [Python Runtime](https://console.bluemix.net/docs/runtimes/python/index.html#python_runtime): IBM Cloud provides a python starter application, a simple python app that provides a template which can be used for your app. 
 
 ## Featured Technologies
 
