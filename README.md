@@ -111,7 +111,7 @@ If you wish to change the name of the IBM Cloud application- Navigate to the `ma
 
 Ensure [Step 1](#1-clone-the-repo) and [Step 2](#2-create-ibm-cloud-service) are completed first.
 
-## Update the NLU service credentials
+### Update the NLU service credentials
 
 Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/services) and click on your Natural Language Understanding service.
  Once the service is open click the `Service Credentials` menu on the left.
@@ -129,7 +129,7 @@ In the `Service Credentials` that opens up in the UI, select whichever `Credenti
  
 If you wish to change the name of your NLU service instance, be sure to update the service name in `manifest.yml`.
   
-## Run the Application
+### Start the Application
 
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
 
@@ -138,7 +138,7 @@ You can optionally use a [virtual environment](https://packaging.python.org/inst
 pip install -r requirements.txt
   ```
 
-Run the app.
+Start the app.
   ```
 python app.py
   ```
