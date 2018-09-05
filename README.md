@@ -26,7 +26,7 @@ Finally, a flask application connects the algorithm to a UI which can be used by
 
 ## Flow
 
-1. The user interacts with the app UI to request relevant information corresponding to an event or a client
+1. The user interacts with the app UI to request relevant information corresponding to an event or a client.
 2. The web app UI interacts with the Python-Flask server to receive the required information from the appropriate api.
 3. The flask apis scrape real-time news from popular online news portals. 
 4. The scraped data is sent to Watson Natural Language Understanding to extract important entities. 
