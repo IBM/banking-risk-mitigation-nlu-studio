@@ -95,9 +95,18 @@ Create the following IBM Cloud service. Name the service `Bankingriskmitigation`
 You can push the app to IBM Cloud using [IBM Cloud CLI](https://console.bluemix.net/docs/cli). This will use the services and application name in the `manifest.yml` file.  From the root directory of the cloned git repository, login into IBM Cloud using CLI:
 ```
 ibmcloud login
-
-NOTE: Ensure you are in the same Region, Organization and Space as the Watson Natural Language Understanding service created above.
 ```
+
+OR
+
+```
+ibmcloud login --sso
+```
+
+If you are using a federated account
+
+`NOTE: Ensure you are in the same Region, Organization and Space as the Watson Natural Language Understanding service created above.`
+
 To target Cloud Foundry org/space interactively.
 
 ```
