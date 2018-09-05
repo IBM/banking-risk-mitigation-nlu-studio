@@ -178,7 +178,7 @@ If we click on the Clients, now it will be filtered as only those who have a Sha
 
 As shown in the above image, if we click on any one client. We will get a news item, filtered on both the levels, in this case-
 * Share Price Deviation
-* L&T Infotech.
+* Bharath Electronics
 
 ![](doc/source/images/Client-table.png)
 
