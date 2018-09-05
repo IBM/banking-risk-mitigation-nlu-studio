@@ -68,8 +68,8 @@ There are two ways to run this application, depending on your requirement, you m
 ## Steps
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
-3. [Run the Application on IBM Cloud](#3-run-the-application-on-ibm-cloud)
-4. 
+3. [Setup the Application on IBM Cloud](#3-setup-the-application-on-ibm-cloud)
+4. [Setup the Application on your Localhost](#4-setup-the-application-on-your-localhost)
 
 ## 1. Clone the repo
 
@@ -90,7 +90,7 @@ Create the following IBM Cloud service. Name the service `Bankingriskmitigation`
   If you wish to change the name of your NLU service instance, be sure to update the service name in `manifest.yml`.
   
 
-## 3. Run the Application on IBM Cloud
+## 3. Setup the Application on IBM Cloud
 
 You can push the app to IBM Cloud using [IBM Cloud CLI](https://console.bluemix.net/docs/cli). This will use the services and application name in the `manifest.yml` file.  From the root directory of the cloned git repository, login into IBM Cloud using CLI:
 ```
@@ -108,7 +108,7 @@ ibmcloud cf push Client_Network_Banking_V1
 If you wish to change the name of the IBM Cloud application- Navigate to the `manifest.yml` file and update the `name` field.
 
 
-# 4. Run Application locally
+## 4. Setup the Application on Localhost
 
 Ensure [Step 1](#1-clone-the-repo) and [Step 2](#2-create-ibm-cloud-service) are completed first.
 
