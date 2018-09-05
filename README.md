@@ -56,7 +56,7 @@ If the below are not already installed on your system, please follow the links a
 * [Python](https://www.python.org/downloads/): The application is built on Python 3.6, to run the application python 3.x version is preferred.
 * [Git](https://git-scm.com/downloads): To clone the repo, alternatively you could use the `Clone or Download` button.
 * [IBM Cloud account](https://console.bluemix.net/registration/?target=%2Fdashboard%2Fapps): To access IBM Cloud and Watson Services.
-* [IBM Cloud CLI](https://console.bluemix.net/docs/cli): To push the python application on you IBM Cloud Organization.
+* [IBM Cloud CLI](https://console.bluemix.net/docs/cli): To push the python application on your IBM Cloud Organization.
 
 
 There are two ways to run this application, depending on your requirement, you may choose to run in any one of the following ways:
