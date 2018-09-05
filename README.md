@@ -111,7 +111,6 @@ To target Cloud Foundry org/space interactively.
 
 ```
 ibmcloud target --cf
-
 ```
 
 Finally, push the app to IBM Cloud:
