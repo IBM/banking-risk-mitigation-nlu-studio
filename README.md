@@ -69,7 +69,7 @@ There are two ways to run this application, depending on your requirement, you m
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
 3. [Run the Application on IBM Cloud](#3-run-the-application-on-ibm-cloud)
-4. [Troubleshooting](#4-troubleshooting)
+4. 
 
 ## 1. Clone the repo
 
@@ -107,17 +107,10 @@ ibmcloud cf push Client_Network_Banking_V1
 
 If you wish to change the name of the IBM Cloud application- Navigate to the `manifest.yml` file and update the `name` field.
 
-## 4. Troubleshooting
 
-* To troubleshoot your IBM Cloud application, use the logs. To see the logs, run:
+# 4. Run Application locally
 
-```bash
-ibmcloud cf logs Client_Network_Banking_V1 --recent
-```
-
-# Run Application locally
-
-Follow Steps 1 and 2 from the previous section.
+Ensure Steps [1](#1-clone-the-repo) and [2](#2-create-ibm-cloud-service) are completed first.
 
 ## Update the NLU service credentials
 
@@ -154,7 +147,13 @@ python app.py
 View your app at: http://localhost:8000
 
 
+# Troubleshooting
 
+* To troubleshoot your IBM Cloud application, use the logs. To see the logs, run:
+
+```bash
+ibmcloud cf logs Client_Network_Banking_V1 --recent
+```
 
 # License
 
