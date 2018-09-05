@@ -98,9 +98,14 @@ ibmcloud login
 
 NOTE: Ensure you are in the same Region, Organization and Space as the Watson Natural Language Understanding service created above.
 ```
+To target Cloud Foundry org/space interactively.
 
+```
+ibmcloud target --cf
 
-Push the app to IBM Cloud:
+```
+
+Finally, push the app to IBM Cloud:
 ```
 ibmcloud cf push Client_Network_Banking_V1
 ```
