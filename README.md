@@ -163,8 +163,8 @@ View your app at: http://localhost:8000
 
 This application provides two methods to gather information:
 
-* Event Triggers
-* Individual Clients
+* Event Options
+* Client Options
 
 ![](doc/source/images/views.png)
 
