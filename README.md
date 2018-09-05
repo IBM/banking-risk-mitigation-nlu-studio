@@ -172,6 +172,10 @@ A user can click on any of the event triggers, on clicking one, it provides a li
 
 ![](doc/source/images/Share_price_deviation.png)
 
+If we click on the Clients, now it will be filtered as only those who have a Share Price Deviation:
+
+![](doc/source/images/Share_price_deviation-Clients.png)
+
 
 ## Troubleshooting
 
