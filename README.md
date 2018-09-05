@@ -119,7 +119,7 @@ Open the Watson Natural Language Understanding service in your [IBM Cloud Dashbo
 
 ![](doc/source/images/dashboard.png)
 
-Once it opens up in the UI, view the `credentials` menu. Copy `username` and `password` key values that appear on the UI
+Once it opens up in the UI, view the `credentials` menu. Copy `username` and `password` key values that appear on the UI.
 
 ![](doc/source/images/update_service_credentials.png)
  
@@ -134,10 +134,10 @@ If you wish to change the name of your NLU service instance, be sure to update t
 
 Install the dependencies listed in the [requirements.txt](https://pip.readthedocs.io/en/stable/user_guide/#requirements-files) file to be able to run the app locally.
 
-You can optionally use a [virtual environment](https://packaging.python.org/installing/#creating-and-using-virtual-environments) to avoid having these dependencies clash with those of other Python projects or your operating system.
   ```
 pip install -r requirements.txt
   ```
+You can optionally use a [virtual environment](https://packaging.python.org/installing/#creating-and-using-virtual-environments) and then run the above command, to avoid having these dependencies clash with those of other Python projects or your operating system.
 
 Start the app.
   ```
