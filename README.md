@@ -46,7 +46,7 @@ Finally, a flask application connects the algorithm to a UI which can be used by
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 * [Artificial Intelligence](https://www.ibm.com/services/artificial-intelligence): Artificial intelligence is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.
 
-# Watch the Video
+## Watch the Video
 
 Insert Video
 
