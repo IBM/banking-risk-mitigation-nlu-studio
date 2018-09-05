@@ -110,7 +110,7 @@ If you wish to change the name of the IBM Cloud application- Navigate to the `ma
 
 # 4. Run Application locally
 
-Ensure Steps [1](#1-clone-the-repo) and [2](#2-create-ibm-cloud-service) are completed first.
+Ensure [Step 1](#1-clone-the-repo) and [Step 2](#2-create-ibm-cloud-service) are completed first.
 
 ## Update the NLU service credentials
 
