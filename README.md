@@ -60,10 +60,9 @@ If the below are not already installed on your system, please follow the links a
 
 
 There are two ways to run this application, depending on your requirement, you may choose to run in any one of the following ways:
-* [Run Application on IBM Cloud](#run-application-on-ibm-cloud): This will let you make the desired changes in the code and then push the application onto your IBM Cloud Foundry Organisation.
-* [Run Application locally](#run-application-locally): This will show you how to run the application locally, on your laptop/desktop, using the provided Flask Server.
+* [Run Application on IBM Cloud](#setup-the-application-on-ibm-cloud): This will let you make the desired changes in the code and then push the application onto your IBM Cloud Foundry Organisation.
+* [Run Application locally](#setup-the-application-on-localhost): This will show you how to run the application locally, on your laptop/desktop, using the provided Flask Server.
 
-# Run Application on IBM Cloud
 
 ## Steps
 1. [Clone the repo](#1-clone-the-repo)
