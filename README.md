@@ -69,6 +69,7 @@ There are two ways to run this application, depending on your requirement, you m
 2. [Create IBM Cloud service](#2-create-ibm-cloud-service)
 3. [Setup the Application on IBM Cloud](#3-setup-the-application-on-ibm-cloud)
 4. [Setup the Application on your Localhost](#4-setup-the-application-on-your-localhost)
+5. [Running the Python Application](#5-running-the-python-application)
 
 ## 1. Clone the repo
 
@@ -106,7 +107,7 @@ ibmcloud cf push Client_Network_Banking_V1
 
 If you wish to change the name of the IBM Cloud application- Navigate to the `manifest.yml` file and update the `name` field.
 
-To view how to use the application, directly move to [Step 5](#5-running-the-application) 
+To view how to use the application, directly move to [Step 5](#5-running-the-python-application) 
 
 ## 4. Setup the Application on your Localhost
 
@@ -145,6 +146,8 @@ python app.py
   ```
 
 View your app at: http://localhost:8000
+
+## 5. Running the Python Application
 
 
 # Troubleshooting
