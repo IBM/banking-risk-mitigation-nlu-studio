@@ -75,7 +75,7 @@ There are two ways to run this application, depending on your requirement, you m
 
 Now you're ready to start working with the app. Clone the repo and change to the directory where the sample app is located.
   ```
-git clone https://github.com/IBM/banking-risk-mitigation-nlu-studio
+git clone git@github.com:IBM/banking-risk-mitigation-nlu-studio.git
 cd banking-risk-mitigation-nlu-studio
   ```
   
