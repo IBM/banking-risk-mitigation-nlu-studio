@@ -157,7 +157,7 @@ Start the app.
 python app.py
   ```
 
-View your app at: http://localhost:8000
+View your app at http://localhost:8000
 
 ## 5. Running the Python Application
 
@@ -168,7 +168,7 @@ This application provides two methods to gather information:
 
 ![](doc/source/images/views.png)
 
-A user can click on any of the event triggers, on clicking one, it provides a list of news items and the clients involved in the same. Suppose, we click on `Share Price Deviation`, a table with the all the information is given, as shown in the below figure:
+A user can click on any of the event triggers, upon clicking one, it provides a list of news items and the clients involved in the same. Suppose, we click on `Share Price Deviation`, a table with the all the information is given, as shown in the below figure:
 
 ![](doc/source/images/Share_price_deviation.png)
 
