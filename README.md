@@ -92,7 +92,7 @@ Create the following IBM Cloud service. Name the service `Bankingriskmitigation`
 
 ## 3. Run the Application on IBM Cloud
 
-You can push the app to IBM Cloud using [IBM Cloud CLI](https://console.bluemix.net/docs/cli). This will use the services and application name in the `manifest.yml` file.  From your root directory login into IBM Cloud using CLI:
+You can push the app to IBM Cloud using [IBM Cloud CLI](https://console.bluemix.net/docs/cli). This will use the services and application name in the `manifest.yml` file.  From the root directory of the cloned git repository, login into IBM Cloud using CLI:
 ```
 ibmcloud login
 ```
