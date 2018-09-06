@@ -1,7 +1,15 @@
 # TROUBLESHOOTING
 ## If you encounter an error while cloning the repo
 
+While following the instructions to clone the repo, you may encounter-
+
 ![](https://github.com/IBM/banking-risk-mitigation-nlu-studio/blob/master/doc/source/images/clone_error.png)
+
+In this case run:
+
+```
+git clone 
+```
 
 ## If you encounter an error while logging into your ibmcloud account
 
