@@ -19,6 +19,12 @@ You might be using a federated account, run:
 ibmcloud login --sso
 ```
 
+## If you encounter an error while pushing the app
+
+![](https://github.com/IBM/banking-risk-mitigation-nlu-studio/blob/master/doc/source/images/nlu_service_error.png)
+
+You may have not created an NLU service on your IBM Cloud Organisation or you may have given a different name in the `manifest.yml` file under `services`.
+
 
 ## To troubleshoot your IBM Cloud application, use the logs. 
 
@@ -28,4 +34,4 @@ To see the logs, run:
 ibmcloud cf logs Client_Network_Banking_V1 --recent
 ```
 
-## 
+ 
