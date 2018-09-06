@@ -8,7 +8,7 @@ While following the instructions to clone the repo, you may encounter-
 In this case run:
 
 ```
-git clone 
+git clone https://github.com/IBM/banking-risk-mitigation-nlu-studio.git
 ```
 
 ## If you encounter an error while logging into your ibmcloud account
