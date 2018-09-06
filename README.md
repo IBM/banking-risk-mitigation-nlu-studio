@@ -185,6 +185,7 @@ As shown in the above image, if we click on any one client. We will get a news i
 
 ![](doc/source/images/Client-table.png)
 
+Thus, the built application enables a banking relationship manager to get relevant client ecosystem news in a faster, convenient and a consolidated manner.
 
 ## Troubleshooting
 
