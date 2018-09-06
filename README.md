@@ -117,7 +117,7 @@ ibmcloud cf push Client_Network_Banking_V1
 
 `NOTE: If you wish to change the name of this application- Navigate to the 'manifest.yml' file and update the 'name' field.`
 
-This step may take about 20 minutes to complete.
+This step may take a few minutes to complete.
 
 Once it is completed, follow the URL mentioned in your CLI to view the application. 
 
