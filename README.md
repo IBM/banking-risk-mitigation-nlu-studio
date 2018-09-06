@@ -115,7 +115,11 @@ Finally, push the app to IBM Cloud:
 ibmcloud cf push Client_Network_Banking_V1
 ```
 
-If you wish to change the name of the IBM Cloud application- Navigate to the `manifest.yml` file and update the `name` field.
+`NOTE: If you wish to change the name of the IBM Cloud application- Navigate to the `manifest.yml` file and update the `name` field.`
+
+This step may take about 20 minutes to complete.
+
+Once it is completed, follow the URL mentioned in your CLI to view the application. 
 
 To understand how to use the application, directly navigate to [Step 5](#5-running-the-python-application) 
 
