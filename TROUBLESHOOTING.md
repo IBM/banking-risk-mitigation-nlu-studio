@@ -1,7 +1,7 @@
 # TROUBLESHOOTING
 ## If you encounter an error while cloning the repo
 
-![](doc/source/images/clone-error.png)
+![](/doc/source/images/clone-error.png)
 
 ## If you encounter an error while logging into your ibmcloud account
 
