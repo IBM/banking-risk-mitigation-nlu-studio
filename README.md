@@ -1,13 +1,15 @@
 ## WORK IN PROGRESS
 # Banking Risk Mitigation using NLU Studio
 
-In today’s dynamic market environment. A 360-degree view of a client is a key factor for risk mitigation for investment prepositions. This code pattern enables retail banking relationship managers to foresee potential risks and proactively recommend remedial actions to their clients. Knowing your client is an essential best practice because it acts as a basis to decide whether or not to invest in a particular client. For a customer relationship manager to be successful in taking the right decision, they must operate on pertinent, accurate, and timely information. 
+In today’s dynamic market environment, a 360-degree view of a client is a key factor for risk mitigation for investment prepositions. Knowing your client is an essential best practice because it acts as a basis to decide whether or not to invest in a particular client. For a customer relationship manager to be successful in taking the right decision, they must operate on pertinent, accurate, and timely information. 
 
 What if we can build a tool that can help you gather all the required information about your clients. To help you make an informed decision on whether or not to invest in a client?
 
-This code pattern is a data science driven solution that uses machine learning to build a knowledge graph of the client associations network and related events from data available as open source and performs multidimensional correlation on these to gain insights. Suppose, there is an investor who wants advice on which customer to invest in or even to understand an existing client’s situation. This pattern would help the customer relationship manager to take an informed decision based on the client's current scenario.
+This code pattern is a data science driven solution that uses machine learning to build a knowledge graph of the client associations network and related events from data available as open source and performs multidimensional correlation on these to gain insights. 
 
-This application provides real-time information trending information pertaining to an organization, which we call a client-network. This information is in compliance with the most important events impacting any organization.  
+Suppose, there is an investor who wants advice on which customer to invest in or even to understand an existing client’s situation. This application provides real-time trending information pertaining to an organization, from popular news sites, extracts the clients affected by it with the help of [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding). This is achieved with the help of the following code pattern:
+* [Augmented Classification of text with Watson Natural Language Understanding and IBM Data Science experience](https://developer.ibm.com/code/patterns/extend-watson-text-classification)
+This information extracted is in compliance with the most important events impacting any organization.  
 The events demonstrated are-
 * Management Change
 * Management Default
@@ -15,12 +17,7 @@ The events demonstrated are-
 * Strike
 * Share Price Deviation
 
-Hence, this app enables all such information to be collated in a single place. Finally, helping a relationship manager to understand the current client-network.
-
-This code pattern takes real-time information from popular news sites, extracts the clients affected by it with the help of [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding). This is achieved with the help of the following code pattern:
-* [Augmented Classification of text with Watson Natural Language Understanding and IBM Data Science experience](https://developer.ibm.com/code/patterns/extend-watson-text-classification)
-
-Finally, a flask application connects the algorithm to a UI which can be used by a user to prune down to the required information.
+Finally, a flask application connects the algorithm to a UI and enables all such information to be collated in a single place. Thus, helping a relationship manager to understand the current client-network and provide the right advice to the investor.
 
 ![](doc/source/images/architecture.png)
 
