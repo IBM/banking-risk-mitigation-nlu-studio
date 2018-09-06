@@ -115,7 +115,7 @@ Finally, push the app to IBM Cloud:
 ibmcloud cf push Client_Network_Banking_V1
 ```
 
-`NOTE: If you wish to change the name of the IBM Cloud application- Navigate to the 'manifest.yml' file and update the 'name' field.`
+`NOTE: If you wish to change the name of this application- Navigate to the 'manifest.yml' file and update the 'name' field.`
 
 This step may take about 20 minutes to complete.
 
