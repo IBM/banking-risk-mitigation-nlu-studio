@@ -189,7 +189,7 @@ Thus, the built application enables a banking relationship manager to get releva
 
 ## Troubleshooting
 
-See [Troubleshooting.md](TROUBLESHOOTING.md) for help in debugging.
+See [Troubleshooting.md](TROUBLESHOOTING.md).
 
 ## License
 
