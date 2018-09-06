@@ -111,7 +111,15 @@ ibmcloud cf push Client_Network_Banking_V1
 
 This step may take a few minutes to complete.
 
-Once it is completed, follow the URL mentioned in your CLI to view the application. 
+Once it is completed, go to your [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/apps)
+
+![](doc/source/images/dashboard_app.png)
+
+Click on your application, this will take you to a page as shown below:
+
+![](doc/source/images/run_app.png)
+
+Click on `Visit app URL`, to view the application.
 
 To understand how to use the application, directly navigate to [Step 5](#5-running-the-python-application) 
 
