@@ -1,7 +1,7 @@
 # TROUBLESHOOTING
 ## If you encounter an error while cloning the repo
 
-![]()
+![](https://github.com/IBM/banking-risk-mitigation-nlu-studio/blob/master/doc/source/images/clone_error.png)
 
 ## If you encounter an error while logging into your ibmcloud account
 
