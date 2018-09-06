@@ -23,7 +23,9 @@ ibmcloud login --sso
 
 ![](https://github.com/IBM/banking-risk-mitigation-nlu-studio/blob/master/doc/source/images/nlu_service_error.png)
 
-You may have not created an NLU service on your IBM Cloud Organisation or you may have given a different name in the `manifest.yml` file under `services`.
+You may have not created an NLU service on your IBM Cloud Organisation or you may have given a different name in the `manifest.yml` file under `services`. 
+
+Ensure service and application are in the same region.
 
 
 ## To troubleshoot your IBM Cloud application, use the logs. 
