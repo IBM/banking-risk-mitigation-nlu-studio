@@ -1,4 +1,3 @@
-## WORK IN PROGRESS
 # Banking Risk Mitigation using NLU Studio
 
 In today’s dynamic market environment, a 360-degree view of a client is a key factor for risk mitigation for investment prepositions. Knowing your client is an essential best practice because it acts as a basis to decide whether or not to invest in a particular client. For a customer relationship manager to be successful in taking the right decision, they must operate on pertinent, accurate, and timely information. 
