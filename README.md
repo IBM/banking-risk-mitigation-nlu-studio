@@ -152,6 +152,12 @@ pip install -r requirements.txt
   ```
 You can optionally use a [virtual environment](https://packaging.python.org/installing/#creating-and-using-virtual-environments) and then run the above command, to avoid having these dependencies clash with those of other Python projects or your operating system.
 
+Install the nltk package dependencies by running the command.
+
+```
+python nltk_download.py
+```
+
 Start the app.
   ```
 python app.py
