@@ -9,7 +9,7 @@ This code pattern is a data science driven solution that uses machine learning t
 Suppose, there is an investor who wants advice on which customer to invest in or even to understand an existing client’s situation. This application provides real-time trending information pertaining to an organization, from popular news sites, extracts the clients affected by it with the help of [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding). This is achieved with the help of the following code pattern:
 * [Augmented Classification of text with Watson Natural Language Understanding and IBM Data Science experience](https://developer.ibm.com/code/patterns/extend-watson-text-classification)
 
-This information extracted is in compliance with the most important events impacting any organization.  
+The information extracted is in compliance with the most important events impacting any organization.  
 The events demonstrated are-
 * Management Change
 * Management Default
