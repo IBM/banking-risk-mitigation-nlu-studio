@@ -21,7 +21,6 @@ Jinja2==2.10
 l==0.11.0
 lxml==4.2.4
 MarkupSafe==1.0
-nltk==3.3
 numpy==1.15.0
 pyasn1==0.4.4
 pyasn1-modules==0.2.2
@@ -40,3 +39,4 @@ vcversioner==2.16.0.0
 watson-developer-cloud==1.7.0
 Werkzeug==0.14.1
 zope.interface==4.5.0
+nltk==3.3
