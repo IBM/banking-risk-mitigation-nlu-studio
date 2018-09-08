@@ -44,7 +44,7 @@ Finally, a flask application connects the algorithm to a UI and enables all such
 * [Artificial Intelligence](https://www.ibm.com/services/artificial-intelligence): Artificial intelligence is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.
 
 ## Watch the Video
-[![](https://img.youtube.com/vi/B_NDyeqEn2k/2.jpg)](http://www.youtube.com/watch?v=B_NDyeqEn2k)
+[![](https://img.youtube.com/vi/B_NDyeqEn2k/0.jpg)](http://www.youtube.com/watch?v=B_NDyeqEn2k)
 
 ## Prerequisite
 If the below are not already installed on your system, please follow the links and install according to your system specifications-
