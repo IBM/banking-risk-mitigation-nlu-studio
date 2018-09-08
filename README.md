@@ -45,7 +45,7 @@ Finally, a flask application connects the algorithm to a UI and enables all such
 
 ## Watch the Video
 
-https://youtu.be/B_NDyeqEn2k
+[![](https://i.ytimg.com/vi/B_NDyeqEn2k/2.jpg?time=1536385410698)](https://youtu.be/B_NDyeqEn2k)
 
 ## Prerequisite
 If the below are not already installed on your system, please follow the links and install according to your system specifications-
