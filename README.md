@@ -1,4 +1,8 @@
+*Read this in other languages: [中文](README-cn.md).*
+
 # Banking Risk Mitigation using NLU Studio
+
+> An explanation of Risk Mitigation can be found in the [RISK MITIGATION IN THE BANKING SYSTEM](http://www.cmj.bxb.ro/Article/CMJ_3_4.pdf)
 
 In today’s dynamic market environment, a 360-degree view of a client is a key factor for risk mitigation for investment prepositions. Knowing your client is an essential best practice because it acts as a basis to decide whether or not to invest in a particular client. For a customer relationship manager to be successful in taking the right decision, they must operate on pertinent, accurate, and timely information. 
 
@@ -34,11 +38,11 @@ Finally, a flask application connects the algorithm to a UI and enables all such
 ## Included Components
 
 * [Watson Natural Language Understanding](https://console.bluemix.net/catalog/services/natural-language-understanding): An IBM Cloud service that can analyze text to extract meta-data from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, semantic roles, using natural language understanding.
-* [Python Runtime](https://console.bluemix.net/docs/runtimes/python/index.html#python_runtime): IBM Cloud powers a python runtime by the python_buildpack. The python_buildpack provides a complete runtime environment for both Python 2 and Python 3 apps.
+* [Python Runtime](https://console.bluemix.net/docs/runtimes/python/index.html#python_runtime): IBM Cloud powers a python runtime by the `python_buildpack`. The `python_buildpack` provides a complete runtime environment for both Python 2 and Python 3 apps.
 
 ## Featured Technologies
 
-* [Natural Language Processing](https://www.ibm.com/watson/services/natural-language-understanding): Natural Language Processing is a field that covers computer understanding and manipulation of human language, and it’s ripe with possibilities for newsgathering.
+* [Natural Language Processing](https://www.ibm.com/watson/services/natural-language-understanding): Natural Language Processing is a field that covers computer understanding and manipulation of human language, and it’s ripe with possibilities for news gathering.
 * [Cloud](https://www.ibm.com/developerworks/learn/cloud/): Accessing computer and information technology resources through the Internet.
 * [Python](https://www.python.org/): Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 * [Artificial Intelligence](https://www.ibm.com/services/artificial-intelligence): Artificial intelligence is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.
@@ -152,7 +156,7 @@ pip install -r requirements.txt
   ```
 You can optionally use a [virtual environment](https://packaging.python.org/installing/#creating-and-using-virtual-environments) and then run the above command, to avoid having these dependencies clash with those of other Python projects or your operating system.
 
-Install the nltk package dependencies by running the command.
+Install the `nltk` package dependencies by running the command.
 
 ```
 python nltk_download.py
