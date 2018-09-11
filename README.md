@@ -2,8 +2,6 @@
 
 # Banking Risk Mitigation using NLU Studio
 
-> An explanation of Risk Mitigation can be found in the [RISK MITIGATION IN THE BANKING SYSTEM](http://www.cmj.bxb.ro/Article/CMJ_3_4.pdf)
-
 In today’s dynamic market environment, a 360-degree view of a client is a key factor for risk mitigation for investment prepositions. Knowing your client is an essential best practice because it acts as a basis to decide whether or not to invest in a particular client. For a customer relationship manager to be successful in taking the right decision, they must operate on pertinent, accurate, and timely information. 
 
 What if we can build a tool that can help you gather all the required information about your clients. To help you make an informed decision on whether or not to invest in a client?
@@ -195,6 +193,10 @@ As shown in the above image, if we click on any one client. We will get a news i
 ![](doc/source/images/Client-table.png)
 
 Thus, the built application enables a banking relationship manager to get relevant client ecosystem news in a faster, convenient and a consolidated manner.
+
+## Links
+
+* An explanation of Risk Mitigation can be found in the [RISK MITIGATION IN THE BANKING SYSTEM](http://www.cmj.bxb.ro/Article/CMJ_3_4.pdf)
 
 ## Troubleshooting
 
