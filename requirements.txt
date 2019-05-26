@@ -36,7 +36,7 @@ Twisted
 txaio
 urllib3
 vcversioner
-watson-developer-cloud==1.5
+ibm-watson>=3.0.3
 Werkzeug
 zope.interface
 nltk
