@@ -136,20 +136,26 @@ Ensure [Step 1](#1-clone-the-repo) and [Step 2](#2-create-ibm-cloud-service) are
 
 ### Update the NLU service credentials
 
-Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://cloud.ibm.com/dashboard/services) and click on your Natural Language Understanding service named `Bankingriskmitigation`.
+Open the Watson Natural Language Understanding service in your [IBM Cloud Dashboard](https://cloud.ibm.com/dashboard/services) and click on your Natural Language Understanding service.
 
 ![](doc/source/images/dashboard.png)
 
-Once it opens up in the UI, view the `credentials` menu. Copy `username` and `password` key values that appear on the UI.
+Once it opens up in the UI, view the `credentials` menu. Copy `apikey` and `url` key values that appear on the UI.
 
-![](doc/source/images/update_service_credentials.png)
+![](doc/source/images/nlu_cred.png)
 
  * Navigate to the cloned repo and open the file `app.py`.
- * Update the `username` and `password` key values in the code.
+ * Update the `apikey` and `url` key values in the code line 30.
 
- ![](doc/source/images/nlu_service_credentials.png)
+```python
+natural_language_understanding = NaturalLanguageUnderstandingV1(
+    version='2018-08-14',
+    iam_apikey='',
+    url=''
+    )
 
-If you wish to change the name of your NLU service instance, be sure to update the service name in `manifest.yml`.
+```
+
 
 ### Start the Application
 
