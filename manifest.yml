@@ -1,6 +1,4 @@
- applications:
-  - name: Client_Network_Banking_V3
+applications:
+  - name: Client_Network_Banking_V1
     random-route: true
     memory: 128M
-    services:
-    - Bankingriskmitigation
