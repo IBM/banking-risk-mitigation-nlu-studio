@@ -79,14 +79,20 @@ cd banking-risk-mitigation-nlu-studio
 
 ## 2. Create IBM Cloud service
 
-Create the following IBM Cloud service. Name the service `Bankingriskmitigation`. Select your desired region, organization and space:
+
+* Create the following IBM Cloud service. Select your desired region, organization and space:
 
   * [**Watson Natural Language Understanding**](https://cloud.ibm.com/catalog/services/natural-language-understanding)
 
   ![](doc/source/images/NLU_Service_instance.png)
 
-  If you wish to change the name of your NLU service instance, be sure to update the service name in `manifest.yml`.
+```
+Note: Keep Note of the NLU Service Instance- region, organization and space.
+```
 
+* Click on the `Manage` tab and click on `Download` to get the `ibm-credentials.env` file. Save this file in the same folder as your cloned repo.
+  
+  ![](doc/source/images/nlu_cred.png)
 
 ## 3. Setup the Application on IBM Cloud
 
